@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import BarcodeScannerComponent from './BarcodeScannerComponent';
+import BarcodeScannerComponent from "react-qr-barcode-scanner-updated";
 
 function App() {
   const [data, setData] = React.useState("Not Found");
